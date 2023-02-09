@@ -1,0 +1,18 @@
+{% extends "main/layout.html" %}
+
+{% block body %}
+    <h1>Add new Item</h1>
+    {% if message %}
+        <div class = "message">{{ message }}</div>
+    {% endif %}
+
+    <form action="{% url 'add' %}" method="post">
+        {% csrf_token %}
+        <input type="text" name="new_item" placeholder=" New Item">
+        <input type="submit" name="submit" style="margin-top: 20px;">
+    </form>
+
+    <div class="changes">
+        <button class="backtolist"><a href="{% url 'home' %}">Back to List =></a></button>
+    </div>
+{% endblock %}

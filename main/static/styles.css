@@ -1,0 +1,110 @@
+body{
+    background-color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.changes{
+    margin-top: 50px;
+    text-align: center;
+}
+
+input[type=text]{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+input[type=password]{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: aquamarine;
+}
+
+input[type=submit]{
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: cyan;
+    display: block;
+    margin: 0 auto;
+}
+
+#register_link{
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 75px;
+    color: darkgoldenrod;
+    text-shadow: 1px 1px 1px black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+.message{
+    text-align: center;
+}
+
+#logout-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: cyan;
+}
+
+.btns{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: cyan;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#listitems{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 70px 20px 50px;
+    list-style-position: inside;
+    background-color: rgb(157, 103, 4);
+    width: 450px;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 30px;
+}
+
+.backtolist{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color: cyan;
+    width: 150px;
+    height: 30px;
+}
+
+
+

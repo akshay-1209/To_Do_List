@@ -1,0 +1,16 @@
+{% extends "main/layout.html" %}
+
+{% block body %}
+
+    <h1>TODO list</h1>
+    <h2>Sign up</h2>
+    {% if message %}
+        <div class = "message"> {{ message }} </div>
+    {% endif %}
+
+    <form action="{% url 'register' %}" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" name="submit">
+    </form>
+{% endblock %}
